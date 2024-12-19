@@ -1,0 +1,37 @@
+
+```gitignore
+# MATLAB/Simulink Specific
+*.asv
+*.slx
+*.mdl
+*.mdlp
+*.slxp
+*.mexa64
+*.mexw32
+*.mexw64
+*.mexmaci64
+*.fig
+*.log
+*.slxc
+*.mlappinstall
+
+# Project files
+*.prj
+*.mlproj
+
+# MATLAB code generation and cache
+codegen/
+slprj/
+*_mex/
+*.mex*
+*.mex*.*
+
+# User-specific settings and temp files
+*.m~ 
+*.bak
+.DS_Store
+Thumbs.db
+
+# MATLAB backup/Autosave
+*~*
+**/*.asv
